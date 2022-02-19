@@ -33,9 +33,18 @@ nav > div {
     justify-content: space-between;
     width: 70%;
 }
-nav > div > a {
+nav a {
     color: rgba(165, 33, 33, 0.842);
 }
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 
 footer {
     width: 100%;
